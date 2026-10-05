@@ -13,7 +13,7 @@ const githubPagesFiles = {
 }
 
 export default defineConfig(({ command }) => ({
-  base: command === 'build' ? '/UKRtehnika/' : '/',
+  base: command === 'build' ? '/Six-bass/' : '/',
   build: { outDir: 'docs', emptyOutDir: true },
   plugins: [react(), tailwindcss(), githubPagesFiles],
 }))
